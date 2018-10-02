@@ -1,0 +1,19 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "A Node.js Test Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atumer/nodetest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atumer/nodetest/issues"
+  },
+  "homepage": "https://github.com/atumer/nodetest#readme"
+}
