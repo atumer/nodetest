@@ -1,11 +1,16 @@
-const http = require('http');
+var express = require('express'),
+    fs = require('fs'),
+    app = express();
 
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var app = express();
 
-const server = http.createServer((req, res) => {
-  res.end('Hello World He He\n');
+var ip = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
+
+
+app.get('/', function(req, res) {
+    res.send('Hello from NodeJS  at '+ new Date());
 });
 
-server.listen(server_port, function () {
-  console.log( "Listening on port " + server_port );
-});
+app.listen(8080, ip);
+
+module.exports = app;
