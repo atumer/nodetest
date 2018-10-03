@@ -1,0 +1,32 @@
+.grid-item-cl0 {
+  background-color: rgb(255, 181, 197);
+}
+.grid-item-cl1 {
+  background-color: rgb(255, 129, 101);
+}
+.grid-item-cl2 {
+  background-color: rgb(144, 238, 144);
+}
+.grid-item-cl3 {
+  background-color: rgb(152, 245, 255);
+}
+.grid-item-cl4 {
+  background-color: rgb(135, 206, 250);
+}
+.grid-item-cl5 {
+  background-color: rgb(255, 250, 205);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border: 1px solid rgb(150, 150, 150);
+  padding: 12px;
+  font-size: 30px;
+  text-align: center;
+}
